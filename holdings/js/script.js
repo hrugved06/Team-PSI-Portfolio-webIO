@@ -49,7 +49,7 @@ function(){
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
-        strings: ["Computer Vision", "Data Science", "Research", "Machine Learning", "Web Development"],
+        strings: ["Compete", "Learn", "Explore", "Build Projects", "Win"],
         loop: true,
         typeSpeed: 50,
 		backSpeed: 25,
@@ -97,27 +97,33 @@ srtop.reveal('.home .dev',{interval: 600});
 
 
 
-/* SCROLL ABOUT */
-srtop.reveal('.about .content h3',{delay: 300});
-srtop.reveal('.about .content .tag',{delay: 400}); 
-srtop.reveal('.about .content p',{delay: 300}); 
-srtop.reveal('.about .content .box-container',{delay: 300}); 
-srtop.reveal('.about .content .resumebtn',{delay: 300}); 
+/* SCROLL ABOUT Flewin */
+srtop.reveal('.about1 .content h3',{delay: 300});
+srtop.reveal('.about1 .content .tag',{delay: 400}); 
+srtop.reveal('.about1 .content p',{delay: 300}); 
+srtop.reveal('.about1 .content .box-container',{delay: 300}); 
+srtop.reveal('.about1 .content .resumebtn',{delay: 300}); 
 
+/* SCROLL ABOUT Hrugved */
+srtop.reveal('.about2 .content h3',{delay: 300});
+srtop.reveal('.about2 .content .tag',{delay: 400}); 
+srtop.reveal('.about2 .content p',{delay: 300}); 
+srtop.reveal('.about2 .content .box-container',{delay: 300}); 
+srtop.reveal('.about2 .content .resumebtn',{delay: 300}); 
 
-/* SCROLL SKILLS */
-srtop.reveal('.skills .container',{interval: 200}); 
-srtop.reveal('.skills .container .bar',{delay: 400}); 
+/* SCROLL ABOUT Ashish */
+srtop.reveal('.about3 .content h3',{delay: 300});
+srtop.reveal('.about3 .content .tag',{delay: 400}); 
+srtop.reveal('.about3 .content p',{delay: 300}); 
+srtop.reveal('.about3 .content .box-container',{delay: 300}); 
+srtop.reveal('.about3 .content .resumebtn',{delay: 300}); 
 
-/* SCROLL EDUCATION */
-srtop.reveal('.education .box',{interval: 200}); 
-
-/* SCROLL PROJECTS */
-srtop.reveal('.work .box',{interval: 200}); 
-
-/* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline',{delay: 400});
-srtop.reveal('.experience .timeline .container',{interval: 400}); 
+/* SCROLL ABOUT Paresh */
+srtop.reveal('.about4 .content h3',{delay: 300});
+srtop.reveal('.about4 .content .tag',{delay: 400}); 
+srtop.reveal('.about4 .content p',{delay: 300}); 
+srtop.reveal('.about4 .content .box-container',{delay: 300}); 
+srtop.reveal('.about4 .content .resumebtn',{delay: 300}); 
 
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container',{delay: 400});
