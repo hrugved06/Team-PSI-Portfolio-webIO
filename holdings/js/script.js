@@ -41,12 +41,12 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Portfolio 🔆 Hrugved Kolhe";
-        $("#favicon").attr("href","holdings/images/prof.png");
+        document.title = "Portfolio 🔆 Team Ψ-Psi";
+        $("#favicon").attr("href","holdings/images/try1.png");
     }
     else {
-        document.title = "Hrugved is calling you back!";
-        $("#favicon").attr("href","holdings/images/sticker2.png");
+        document.title = "Team Ψ-Psi is calling you back!";
+        $("#favicon").attr("href","holdings/images/try1.png");
     }
 });
 
@@ -108,20 +108,6 @@ document.onkeydown = function(e) {
     return false;
  }
 }
-
-// Start of Tawk.to Live Chat
-
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/61001d75d6e7610a49ad3be2/1fbk764uk';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-// End of Tawk.to Live Chat
-
 
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
