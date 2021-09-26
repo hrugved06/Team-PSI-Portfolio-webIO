@@ -49,7 +49,7 @@ function(){
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
-        strings: ["Open Source", "Data Science", "Research", "Machine Learning", "Quantum Computing"],
+        strings: ["Computer Vision", "Data Science", "Research", "Machine Learning", "Web Development"],
         loop: true,
         typeSpeed: 50,
 		backSpeed: 25,
