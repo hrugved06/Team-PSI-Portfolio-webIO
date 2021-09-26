@@ -41,11 +41,7 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Portfolio 🔆 Team Ψ-Psi";
-        $("#favicon").attr("href","holdings/images/try1.png");
-    }
-    else {
-        document.title = "Team Ψ-Psi is calling you back!";
+        document.title = "Team Ψ-Psi";
         $("#favicon").attr("href","holdings/images/try1.png");
     }
 });
