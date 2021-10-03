@@ -2,7 +2,7 @@
 
 ## Team Psi
 
-- [Hrugved Kolhe](https://www.linkedin.com/in/hrugved-kolhe-364881193/)
-- [Flewin Dsouza]()
-- [Ashish Kotecha]()
-- [Paresh Chaudhari]()
+- [Hrugved Kolhe](https://github.com/hrugved06)
+- [Flewin Dsouza](https://github.com/flewindsouza)
+- [Ashish Kotecha](https://github.com/ashishkotecha)
+- [Paresh Chaudhari](https://github.com/PaareshC)
