@@ -51,6 +51,11 @@ html::-webkit-scrollbar-thumb{
   height: 100%;
   width: 100%;
 }
+.loader-container img{
+  width: 50%;
+  margin-left: 6rem;
+  border-radius: 50%;
+}
 .loader-container.fade-out{
   top: -120%;
 }
@@ -334,6 +339,20 @@ header .navbar ul li a:hover{
   flex-wrap: wrap;
   padding: 4rem;
 }
+.about1 .quote{
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  margin-top: .5rem;
+  font-size: 20px;
+}
+.about1 .random{
+  text-align: center;
+  color:#0004fa;
+  padding: 10px;
+  font-size: 20px;
+}
 .about1 .row .image {
   text-align: center;
   flex: 1 1 35rem;
@@ -385,6 +404,8 @@ header .navbar ul li a:hover{
 }
 /* Flewin's About Ends*/
 
+
+
 /* Hrugved's About starts*/
 .about2 .row{
   display: flex;
@@ -392,6 +413,13 @@ header .navbar ul li a:hover{
   gap: 2rem;
   flex-wrap: wrap;
   padding: 4rem;
+}
+.about2 .quote{
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  margin-top: .5rem;
 }
 .about2 .row .image {
   text-align: center;
@@ -452,6 +480,13 @@ header .navbar ul li a:hover{
   flex-wrap: wrap;
   padding: 4rem;
 }
+.about3 .quote{
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  margin-top: .5rem;
+}
 .about3 .row .image {
   text-align: center;
   flex: 1 1 35rem;
@@ -510,6 +545,13 @@ header .navbar ul li a:hover{
   gap: 2rem;
   flex-wrap: wrap;
   padding: 4rem;
+}
+.about4 .quote{
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  margin-top: .5rem;
 }
 .about4 .row .image {
   text-align: center;
@@ -837,3 +879,91 @@ form .button-area{
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+/* Public API Starts*/
+.api {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid #000000;
+  background-color: rgb(208, 255, 190);
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.quote-btn {
+  position: relative;
+  line-height: 0;
+  padding: 0.5rem 1.1rem;
+  border-radius: .5em;
+  transition: 0.5s;
+  color: #fff;
+  background: #120044;
+  border: 2px solid rgb(230, 255, 4);
+  box-shadow: 0px 5px 5px rgba(48, 68, 247, .6);
+  font-family: 'Poppins', sans-serif;
+}
+.quote-btn:hover {
+  background: #b2ff5b;
+  color: #000;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+}
+.quote-btn:active {
+  background: #b2ff5b;
+  color: #000;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+  transform: translateY(10px);
+}
+
+.twitter-btn {
+  position: relative;
+  line-height: 0;
+  padding: 0.2rem 1.1rem;
+  border-radius: .5em;
+  transition: 0.5s;
+  font-size: 18px;
+  color: #fff;
+  background: #120044;
+  border: 2px solid rgb(230, 255, 4);
+  box-shadow: 0px 5px 5px rgba(48, 68, 247, .6);
+}
+.twitter-btn:hover {
+  background: #b2ff5b;
+  color: #000;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+}
+.twitter-btn:active {
+  background: #b2ff5b;
+  color: #000;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+  transform: translateY(10px);
+}
+
+#random_quote{
+  padding-bottom: 10px;
+  color: #120044;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#tit {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+#get-activity{
+  font-size: 20px;
+}
+
+.api h1 span{
+  color: #4900cf;
+  font-weight: bolder;
+}
+
+#para{
+  padding-bottom: 10px;
+}
+/* Public API Ends*/
