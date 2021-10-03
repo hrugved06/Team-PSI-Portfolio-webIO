@@ -345,14 +345,8 @@ header .navbar ul li a:hover{
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   margin-top: .5rem;
-  font-size: 20px;
 }
-.about1 .random{
-  text-align: center;
-  color:#0004fa;
-  padding: 10px;
-  font-size: 20px;
-}
+
 .about1 .row .image {
   text-align: center;
   flex: 1 1 35rem;
